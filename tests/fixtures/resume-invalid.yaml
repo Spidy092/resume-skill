@@ -1,0 +1,9 @@
+target:
+  title: Platform Engineer
+experience:
+  - organization: Acme
+    bullets:
+      - text: Architected a Kubernetes platform that reduced deployment time by 75%.
+        evidence_ids: [ev-pipeline]
+        target_keywords: [Kubernetes]
+projects: []

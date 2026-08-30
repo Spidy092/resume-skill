@@ -1,0 +1,72 @@
+schema_version: 1
+candidate:
+  name: Jordan Lee
+  email: jordan@example.com
+  phone: "+1 555 010 0200"
+  location: Bengaluru, India
+  links:
+    linkedin: https://linkedin.com/in/jordanlee
+    github: https://github.com/jordanlee
+    portfolio: ""
+  target_roles: [Platform Engineer]
+skills:
+  - name: GitHub Actions
+    aliases: [CI/CD]
+    evidence_ids: [ev-pipeline]
+  - name: Node.js
+    aliases: [Node]
+    evidence_ids: [ev-pipeline]
+  - name: AWS
+    aliases: [Amazon Web Services]
+    evidence_ids: [ev-aws]
+aliases: {}
+roles:
+  - id: role-acme
+    organization: Acme
+    title: Software Engineer
+    dates: 2023-01 to present
+projects:
+  - id: project-release
+    name: Release Guard
+    skills: [GitHub Actions, Node.js, AWS]
+    evidence_ids: [ev-pipeline, ev-aws]
+    ratings:
+      impact: 4
+      complexity: 4
+      production: 5
+      verifiability: 4
+      uniqueness: 4
+  - id: project-ui
+    name: UI Demonstration
+    skills: [React]
+    evidence_ids: [ev-ui]
+    ratings:
+      impact: 1
+      complexity: 2
+      production: 0
+      verifiability: 3
+      uniqueness: 1
+education: []
+certifications: []
+evidence:
+  - id: ev-pipeline
+    type: achievement
+    quality: verified
+    statement: Built a GitHub Actions CI/CD release pipeline for a Node.js service and reduced six manual release steps to two.
+    technologies: [GitHub Actions, Node.js]
+    metrics:
+      manual_steps_before: 6
+      manual_steps_after: 2
+  - id: ev-aws
+    type: responsibility
+    quality: candidate_confirmed
+    statement: Deployed the service to Amazon Web Services.
+    technologies: [AWS]
+    metrics: {}
+  - id: ev-ui
+    type: project
+    quality: verified
+    statement: Built a local React interface demonstration.
+    technologies: [React]
+    metrics: {}
+

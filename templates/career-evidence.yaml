@@ -1,0 +1,19 @@
+schema_version: 1
+candidate:
+  name: ""
+  email: ""
+  phone: ""
+  location: ""
+  links:
+    linkedin: ""
+    github: ""
+    portfolio: ""
+  target_roles: []
+skills: []
+aliases: {}
+roles: []
+projects: []
+education: []
+certifications: []
+evidence: []
+

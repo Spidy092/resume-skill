@@ -1,0 +1,36 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=0.58in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{microtype}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{leftmargin=*,nosep,topsep=2pt}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{-4pt}\hrule]
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+\newcommand{\resumeEntry}[4]{%
+  \textbf{#1}\hfill #2\\
+  \textit{#3}\hfill \textit{#4}\vspace{1pt}%
+}
+\hypersetup{pdftitle={@@PDFTITLE@@},pdfauthor={@@PDFAUTHOR@@},pdfsubject={Professional Resume}}
+
+\begin{document}
+@@CONTACTBLOCK@@
+@@SUMMARYBLOCK@@
+\section{Experience}
+@@EXPERIENCEBLOCK@@
+\section{Projects}
+@@PROJECTSBLOCK@@
+\section{Skills}
+@@SKILLSBLOCK@@
+\section{Education}
+@@EDUCATIONBLOCK@@
+\end{document}
+

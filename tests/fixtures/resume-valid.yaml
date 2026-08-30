@@ -1,0 +1,28 @@
+target:
+  title: Platform Engineer
+summary:
+  text: Platform-focused software engineer with verified delivery automation experience.
+  evidence_ids: [ev-pipeline]
+experience:
+  - organization: Acme
+    title: Software Engineer
+    dates: 2023 to present
+    bullets:
+      - text: Built a GitHub Actions pipeline for a Node.js service, reducing manual release steps from 6 to 2.
+        evidence_ids: [ev-pipeline]
+        target_keywords: [GitHub Actions, Node.js]
+projects:
+  - name: Release Guard
+    technologies: [GitHub Actions, Node.js, AWS]
+    bullets:
+      - text: Automated repeatable delivery checks for a production service using verified CI/CD evidence.
+        evidence_ids: [ev-pipeline, ev-aws]
+        target_keywords: [GitHub Actions, Node.js, AWS]
+skills:
+  - category: Cloud and delivery
+    values: [AWS, GitHub Actions]
+education:
+  - school: Example Institute of Technology
+    degree: Bachelor of Engineering in Computer Science
+    dates: 2019 to 2023
+    location: Bengaluru, India

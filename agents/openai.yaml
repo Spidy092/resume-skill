@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resume Job Optimizer"
+  short_description: "Build truthful ATS-safe LaTeX resumes from verified evidence"
+  default_prompt: "Use $resume-job-optimizer to analyze my career evidence and a target job, then produce and verify an Overleaf-ready resume."
