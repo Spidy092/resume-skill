@@ -1,6 +1,11 @@
 ---
 name: resume-job-optimizer
 description: Build or tailor truthful ATS-safe resumes from verified career evidence and a target job, including project selection, keyword mapping, Overleaf-ready LaTeX, PDF extraction checks, and recruiter review. Use for resume creation or job-specific resume optimization; do not use for job scraping, automatic applications, or interview coaching.
+license: MIT
+compatibility: Requires Python 3.10+ and PyYAML. LaTeX and Poppler are required for PDF compilation and auditing.
+metadata:
+  author: Spidy092
+  version: "0.1.0"
 ---
 
 # Resume Job Optimizer
